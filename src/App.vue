@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <ul>
-      <li v-for="item in users" :key="item.id">
+      <li v-for="item in users" :key="item.id" style="color:red">
         {{item.name}}
       </li>
     </ul>
@@ -23,7 +23,7 @@ export default {
   },
     mounted(){
       axios.get('http://localhost:3000/api/users').then(response=>{
- 
+
           this.users = response.data
       })
     }
