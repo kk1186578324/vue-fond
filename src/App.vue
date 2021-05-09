@@ -14,6 +14,7 @@ import axios from 'axios';
 export default {
   name: 'App1',
     data(){
+
       return{
           users:[]
       }
