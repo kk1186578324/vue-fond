@@ -6,16 +6,20 @@
       </li>
     </ul>
   </div>
+
 </template>
 
 <script>
+
+
 
 import axios from 'axios';
 export default {
   name: 'App',
     data(){
       return{
-          users:[]
+          users:[1,2,3],
+          use:111
       }
     },
   components: {
@@ -36,7 +40,9 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #b21510;
   margin-top: 60px;
+
+  /*color: ['#aed8fe', '#57a1fc', '#3a73b8', '#2B32B2']*/
 }
 </style>
