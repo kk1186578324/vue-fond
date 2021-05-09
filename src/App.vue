@@ -12,7 +12,7 @@
 
 import axios from 'axios';
 export default {
-  name: 'App',
+  name: 'App1',
     data(){
       return{
           users:[]
@@ -27,6 +27,7 @@ export default {
           this.users = response.data
       })
     }
+
 }
 </script>
 
