@@ -6,17 +6,19 @@
       </li>
     </ul>
   </div>
+
 </template>
 
 <script>
 
-import axios from 'axios';
 
+
+import axios from 'axios';
 export default {
-  name: 'App1',
+  name: 'App',
     data(){
       return{
-          users:[]
+          users:[1,2,3]
       }
     },
   components: {
@@ -28,7 +30,6 @@ export default {
           this.users = response.data
       })
     }
-
 }
 </script>
 
